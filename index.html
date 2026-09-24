@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jonathan Matthias | Sites e sistemas sob medida</title>
+  <meta name="description" content="Desenvolvedor freelancer em Pernambuco. Crio sites, landing pages e sistemas sob medida para pequenos negócios, com hospedagem e suporte.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Jonathan Matthias | Sites e sistemas sob medida">
+  <meta property="og:description" content="Sites, landing pages e sistemas sob medida para pequenos negócios, com hospedagem e suporte.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23000'/%3E%3Crect x='10' y='6' width='12' height='20' fill='%23ff2d2d'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#projetos">Ir para os projetos</a>
+
+  <header class="site-header">
+    <div class="wrap site-header__in">
+      <a class="brand" href="#top">Jonathan Matthias</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#projetos">Projetos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+        <a class="btn btn--solid btn--sm" id="nav-whatsapp" href="#contato" hidden>WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <h1>
+          <span class="ln"><span>Sites e sistemas</span></span>
+          <span class="ln"><span>sob medida para</span></span>
+          <span class="ln"><span>o seu negócio<i class="cursor" aria-hidden="true"></i></span></span>
+        </h1>
+
+        <div class="hero__foot">
+          <p class="hero__lead">Sou o Jonathan, desenvolvedor freelancer em Pernambuco. Crio o site ou o sistema, coloco no ar e cuido da hospedagem.</p>
+          <div class="hero__cta">
+            <a class="btn btn--solid" id="cta-whatsapp" href="#contato" hidden>Chamar no WhatsApp</a>
+            <a class="btn btn--line" href="#projetos">Ver projetos</a>
+          </div>
+        </div>
+
+        <div class="live" id="live" hidden>
+          <span class="live__label">No ar agora</span>
+          <span class="live__links" id="live-links"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Projetos</h2>
+          <p class="section__intro">Sites que já estão no ar e sistemas em etapas diferentes. A etiqueta de cada projeto mostra em que ponto ele está.</p>
+        </div>
+
+        <div class="filters" id="filters" role="group" aria-label="Filtrar projetos">
+          <button type="button" data-filter="todos" aria-pressed="true">Todos</button>
+          <button type="button" data-filter="site" aria-pressed="false">Sites</button>
+          <button type="button" data-filter="sistema" aria-pressed="false">Sistemas</button>
+        </div>
+
+        <ul class="rows" id="rows"></ul>
+        <noscript><p class="section__intro">Ative o JavaScript para ver a lista de projetos.</p></noscript>
+      </div>
+    </section>
+
+    <section class="section" id="servicos">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">O que eu faço</h2>
+        </div>
+
+        <div class="trio">
+          <article>
+            <h3 class="h3">Sites e landing pages</h3>
+            <p>Para pousadas, comércios e prestadores de serviço que querem ser encontrados no Google e receber contato direto dos clientes.</p>
+          </article>
+          <article>
+            <h3 class="h3">Sistemas sob medida</h3>
+            <p>Pedidos, vendas, estoque, cadastros e o que o dia a dia do seu negócio pedir. Desenvolvidos em Django.</p>
+          </article>
+          <article>
+            <h3 class="h3">Hospedagem e suporte</h3>
+            <p>Coloco no ar, configuro domínio e certificado de segurança e dou 15 dias de suporte grátis depois da entrega.</p>
+          </article>
+        </div>
+
+        <h2 class="h2 h2--sub" id="como">Como funciona</h2>
+        <ol class="steps">
+          <li>
+            <h3 class="h3">Conversa</h3>
+            <p>Você conta o que o seu negócio precisa e o que já usa hoje.</p>
+          </li>
+          <li>
+            <h3 class="h3">Protótipo</h3>
+            <p>Eu monto uma primeira versão para você ver funcionando e opinar.</p>
+          </li>
+          <li>
+            <h3 class="h3">Entrega</h3>
+            <p>Ajustes finais e publicação, com domínio próprio e certificado.</p>
+          </li>
+          <li>
+            <h3 class="h3">Suporte</h3>
+            <p>15 dias de suporte grátis. Depois, você pode manter a hospedagem comigo.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="wrap about">
+        <h2 class="h2">Sobre</h2>
+        <div class="about__text">
+          <p>Sou Jonathan Matthias da Silva, estudante de Análise e Desenvolvimento de Sistemas no IFPE. Trabalho como freelancer criando sites e sistemas para pequenos negócios, e cuido de tudo: do desenvolvimento à hospedagem.</p>
+          <p id="about-security">Também tenho formação em segurança da informação, com as certificações Cisco Ethical Hacker e Google Cybersecurity, e participo de competições de CTF. Na prática, isso ajuda a entregar sistemas que já nascem cuidando dos dados dos seus clientes.</p>
+          <h3 class="h3 h3--small">Ferramentas do dia a dia</h3>
+          <ul class="stack" id="stack"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Vamos conversar sobre o seu projeto?</h2>
+          <p class="section__intro">Me conte o que o seu negócio precisa e a gente vê o melhor caminho.</p>
+        </div>
+        <ul class="rows" id="contacts"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__in">
+      <span>&copy; <span id="year">2026</span> Jonathan Matthias da Silva</span>
+      <a href="#top">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <dialog id="project-dialog" class="modal" aria-labelledby="dialog-title">
+    <div id="dialog-body"></div>
+  </dialog>
+
+  <script src="js/config.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
