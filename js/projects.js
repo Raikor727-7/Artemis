@@ -174,6 +174,23 @@ window.PROJECTS = [
     ]
   },
 
+  {
+    id: "sitio-espaco-verde",
+    title: "Sítio Espaço Verde",
+    kind: "site",
+    status: "demo",   // troque para "no-ar" e preencha url quando publicar
+    tagline: "Site de sítio ecológico e educação ambiental",
+    description: [
+      "Site do Sítio Ecológico Espaço Verde, com foco em educação ambiental, lazer e ecoturismo."
+    ],
+    tech: ["HTML", "CSS", "JavaScript"],
+    // url: "https://...",
+    cover: "",
+    media: [
+      // { type: "image", src: "assets/projects/sitio-espaco-verde/pagina-inicial.png", caption: "Página inicial" },
+    ]
+  },
+
   /* ---- Guardado, não aparece no site (troque hidden para false) ---- */
   {
     id: "pastel-da-mary",
